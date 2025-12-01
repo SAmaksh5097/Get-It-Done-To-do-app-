@@ -7,9 +7,7 @@ const NavBar = () => {
             <img src={pic} alt="logo" className='size-10' />
             <h1 className='text-3xl'>Get It Done.</h1>
         </div>
-        <div>
-            <button className='bg-amber-200 text-black font-bold px-3 py-2 rounded-2xl cursor-pointer   '>Add new task</button>
-        </div>
+
     </div>
   )
 }
