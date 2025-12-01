@@ -20,9 +20,6 @@ const Tasks = () => {
         settasklist([...taskslist,""])
     }
 
-
-    
-
   return (
     <div className='bg-gray-900 border rounded-2xl p-4 border-gray-400 flex flex-col gap-3 '>
         <h3>You have {taskslist.length} tasks left</h3>
